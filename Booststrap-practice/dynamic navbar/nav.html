@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic NavBar</title>
+    <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="/node_modules/bootstrap-icons/font/bootstrap-icons.css">
+</head>
+<body>
+    
+    <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#productNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a href="#" class="navbar-brand">JagadeeshMouli</a>
+            
+            <div class="collapse navbar-collapse" id="productNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item ">
+                        <button class="nav-link active">Electronics</button>
+                    </li>
+                    <li class="nav-item">
+                        <button class="nav-link">Clothing</button>
+                    </li>
+                    <li class="nav-item">
+                        <button class="nav-link">Furniture</button>
+                    </li>
+                    <li class="nav-item">
+                        <button class="nav-link">Home & Kitchen</button>
+                    </li>
+                </ul>
+            </div>
+            <div class="input-group border-black" style="width: 40%;">
+                <input class="form-control" type="text" placeholder="Search Mouli.in" style="width: 80%;">
+                <button class="btn btn-warning form-control" style="width: 20%;">Search</button>
+            </div>
+            <div>
+                <button class="btn btn-warning">Sign in</button>
+            </div>
+            <div>
+                <button class="btn btn-warning"> <span class="bi bi-cart4"></span>Add to cart</button>
+            </div>
+        </div>
+    </nav>
+
+
+
+    <script src="/node_modules/jquery/dist/jquery.js"></script>
+    <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+</body>
+</html>

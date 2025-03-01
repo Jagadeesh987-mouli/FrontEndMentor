@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="/node_modules/bootstrap-icons/font/bootstrap-icons.css">
+</head>
+<body>
+    <h2>Accordion</h2>
+
+    <div class="accordion m-5" id="big-box">
+        <div class="accordion-item bg-warning text-light">
+            <div class="accordion-header">
+                <button class="btn w-100 text-start" data-bs-toggle="collapse" data-bs-target="#box1">
+                    <p class="m-2 text-light">show box1</p>
+                </button>
+            </div>
+            <div class="accordion-body collapse accordion-collapse" id="box1" data-bs-parent="#big-box">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et eius iusto enim adipisci, quisquam aliquam, quam quas tempore corrupti ex sit assumenda omnis quo! Consequuntur excepturi eligendi placeat nihil laudantium.</p>
+            </div>
+        </div>
+
+        <div class="accordion-item">
+            <div class="accordion-header">
+                <button class="btn w-100 text-start" data-bs-toggle="collapse" data-bs-target="#box2">
+                    <p class="m-2">show box2</p>
+                </button>
+            </div>
+            <div class="accordion-body collapse accordion-collapse" id="box2" data-bs-parent="#big-box">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum veniam molestiae sequi alias, officiis exercitationem maxime eum repudiandae, quas sint accusamus doloribus excepturi recusandae nisi voluptatem neque nesciunt omnis iure.</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="/node_modules/jquery/dist/jquery.js"></script>
+    <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+</body>
+</html>

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dropdown</title>
+    <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="/node_modules/bootstrap-icons/font/bootstrap-icons.css">
+</head>
+<body>
+
+    <h1>Dropdown</h1>
+    <div class="dropdown ps-5 m-5">
+        <button class="btn btn-primary dropdown-toggle"  data-bs-toggle="dropdown" >Language</button>
+        <div class="dropdown-menu dropdown-menu-start">
+            <div class="dropdown-item active">English</div>
+            <div class="dropdown-item">Hindi</div>
+            <div class="dropdown-item">Telugu</div>
+        </div>
+    </div>
+
+    <h1>Split dropdown</h1>
+    <div class="dropdown ps-5 m-5">
+        <div class="btn-group">
+            <button class="btn btn-lg btn-primary">City</button>
+            <button class="btn btn-lg btn-primary dropdown-toggle dropdown-toggle-split " data-bs-toggle="dropdown">
+                
+            </button>
+
+            <ul class="dropdown-menu">
+                <li class="dropdown-item"> Visakhapatnam </li>
+                <li class="dropdown-item"> Hyderabad </li>
+                <li class="dropdown-item"> Chennai </li>
+                <li class="dropdown-item"> Banglore </li>
+                <li class="dropdown-item"> Mumbai </li>
+            </ul>
+        </div>
+    </div> 
+
+    <h1>Drop-up</h1>
+    <div class="dropup ps-5 m-5">
+        <button class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" >Gender</button>
+        <div class="dropdown-menu">
+            <div class="dropdown-item"> Male </div>
+            <div class="dropdown-item"> Female </div>
+            <div class="dropdown-item"> Others </div>
+        </div>
+    </div>
+
+    <h1>Dropu-split</h1>
+    <div class="dropup btn-group ps-5 m-5">
+        <button class="btn btn-warning">College</button>
+        <button class="btn btn-warning dropdown dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown"></button>
+        <div class="dropdown-menu">
+            <div class="dropdown-item">Tier-1 : IIT, NIT</div>
+            <div class="dropdown-item">Tier-2 : Other Govt College</div>
+            <div class="dropdown-item">Tier-1 : Private College</div>
+        </div>
+    </div>
+
+
+    <script src="/node_modules/jquery/dist/jquery.js"></script>
+    <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+
+</body>
+</html>

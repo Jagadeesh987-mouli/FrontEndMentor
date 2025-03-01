@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+.cards{
+    width: 22.24%;
+}
+
+.card-body > p{
+    padding: 0%;
+    margin: 0%;
+    font-size: 100%;
+}
+.card-body > h4{
+    padding: 0%;
+    margin: 0%;
+    font-size: 150%;
+}
+.card > .card-body{
+    padding-top: 3%;
+    padding-bottom: 4%;
+    padding-left: 10%;
+}
+.card > .card-footer{
+    padding-left: 17%;
+    padding-right: 17%;
+}
+
+.price{
+    font-size: 130%;
+    font-weight: bold;
+}
+.discount{
+    color: green;
+    font-weight: bold;
+    font-size: 130%;
+    padding-left: 3%;
+}
+.card-header{
+    transition: 0.8s;
+}
+.card-header:hover{
+    transform: scale(1.05);
+    transition:  0.8s ease-in;
+}
+
